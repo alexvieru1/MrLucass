@@ -34,18 +34,18 @@ const Apartment: React.FC<ApartmentProps> = ({
           {title}
         </h5>
         <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
-          <span className="font-medium text-black">Suprafață utilă:</span>{" "}
+          <span className="font-medium ">Suprafață utilă:</span>{" "}
           {surface} m² +{" "}
           {balcony < 20 ? `${balcony} m² balcon` : `${balcony} m² terasă`}
         </p>
         <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
-          <span className="font-medium text-black">Etaj:</span> {floor}
+          <span className="font-medium ">Etaj:</span> {floor}
         </p>
         {/* <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
         <span className="font-medium text-black">Preț/m²:</span> {price} €
         </p> */}
         <p className="mb-0 text-base text-neutral-600 dark:text-neutral-200">
-          <span className="font-medium text-black">Preț final:</span>{" "}
+          <span className="font-medium ">Preț final:</span>{" "}
           {totalPrice} € + TVA
         </p>
       </div>
