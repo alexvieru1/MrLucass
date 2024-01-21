@@ -17,11 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background: #333239
+}
+
+@layer components{
+  .navbar{
+    @apply h-[80px] w-full text-center items-center justify-center bg-[#2b3645] fixed top-0 z-[1000] border-b
+  }
+  .footer{
+    @apply z-[10] w-full text-center flex items-center justify-center h-[100px] bg-gray-600 relative bottom-0 mb-0
+  }
+  .header{
+    @apply mt-[100px] ml-5 mr-5 flex flex-wrap justify-center
+  }
 }
