@@ -7,11 +7,11 @@ const Hero = () => {
       <div className=" grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center">
           <h1 className="mb-4 text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white " id="hero">
-            Complexul de Apartamente Mister Lucass în Localitatea Constanta
+            Complexul de Apartamente Mr. Lucass în Localitatea Constanța
           </h1>
           <p className="text-[#ADB7BE] text-lg lg:text-xl">
-            Cu sediul într-o locație centrală pe Strada Barbu Catargi,
-            Complexul de Apartamente Mister Lucass se distinge prin designul său
+            Cu sediul în Constanța, zona Palazu pe Strada Barbu Catargi,
+            Complexul de Apartamente Mr. Lucass se distinge prin designul său
             modern și calitatea construcției. De la priveliștile spectaculoase
             la facilitățile de clasă mondială, suntem dedicați să oferim o
             experiență de locuire superioară. Cu predare la cheie și fără loc de
