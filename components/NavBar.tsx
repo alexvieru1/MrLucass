@@ -15,7 +15,7 @@ const navLinks = [
     path: "#gallery",
   },
   {
-    title: "Apartamnte",
+    title: "Apartamente",
     path: "#apartments",
   },
   {
