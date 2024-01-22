@@ -20,7 +20,7 @@ const About = () => {
         calitatea construcției.
       </p>
       <p className="text-[#ADB7BE] text-lg lg:text-xl text-center">
-        De la priveliștile spectaculoase la facilitățile de clasă mondială,
+        De la priveliștile spectaculoase la facilitățile oferite,
         suntem dedicați să oferim o experiență de locuire superioară.
       </p>
       <p className="text-[#ADB7BE] text-lg lg:text-xl text-center">

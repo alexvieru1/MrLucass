@@ -13,7 +13,7 @@ const Hero = () => {
             Cu sediul în Constanța, zona Palazu pe Strada Barbu Catargi,
             Complexul de Apartamente Mr. Lucass se distinge prin designul său
             modern și calitatea construcției. De la priveliștile spectaculoase
-            la facilitățile de clasă mondială, suntem dedicați să oferim o
+            la facilitățile oferite, suntem dedicați să oferim o
             experiență de locuire superioară. Cu predare la cheie și fără loc de
             parcare inclus, vă invităm să vă rezervați un loc în această
             comunitate exclusivistă, unde fiecare casă devine căminul unui stil
