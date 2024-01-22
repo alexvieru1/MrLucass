@@ -35,8 +35,8 @@ const Apartment: React.FC<ApartmentProps> = ({
         </h5>
         <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
           <span className="font-medium ">Suprafață utilă:</span>{" "}
-          {surface} m² +{" "}
-          {balcony < 20 ? `${balcony} m² balcon` : `${balcony} m² terasă`}
+          {surface} m² {" "}
+          {balcony < 20 ? `(${balcony} m² balcon inclus)` : `+ ${balcony} m² terasă`}
         </p>
         <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
           <span className="font-medium ">Etaj:</span> {floor}

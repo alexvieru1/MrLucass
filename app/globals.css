@@ -18,7 +18,7 @@
 
 body {
   color: white;
-  background: #333239
+  background: #1d1d22
 }
 
 @layer components{
@@ -26,7 +26,7 @@ body {
     @apply h-[80px] w-full text-center items-center justify-center bg-[#2b3645] fixed top-0 z-[1000] border-b
   }
   .footer{
-    @apply z-[10] w-full text-center flex items-center justify-center h-[100px] bg-gray-600 relative bottom-0 mb-0
+    @apply z-[10] w-full text-center flex items-center justify-center h-[100px] bg-gray-800 relative bottom-0 mb-0
   }
   .header{
     @apply mt-[100px] ml-5 mr-5 flex flex-wrap justify-center

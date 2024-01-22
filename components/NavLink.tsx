@@ -26,7 +26,7 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title, setNavbarOpen }) => {
     <a
       href={href}
       onClick={handleClick}
-      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-yellow-900"
+      className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-[#cda370]"
     >
       {title}
     </a>
