@@ -17,7 +17,7 @@ const Gallery = () => {
       <h1 className="text-center mt-10 mb-10 text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-yellow-800 to-white ">
         Galerie
       </h1>
-      <div className="container-images grid mx-auto xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="container-images grid mx-auto place-items-center xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
         {galleryPhotos.slice(0, 3).map((photo, index) => (
           <Image
             key={index}
@@ -29,7 +29,7 @@ const Gallery = () => {
           />
         ))}
       </div>
-      <div className="container-images grid mt-10 mx-auto xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="container-images grid mt-10 mx-auto place-items-center xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
         {galleryPhotos.slice(3).map((photo, index) => (
           <Image
             key={index}
