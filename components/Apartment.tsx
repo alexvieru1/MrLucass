@@ -46,7 +46,7 @@ const Apartment: React.FC<ApartmentProps> = ({
         </p> */}
         <p className="mb-0 text-base text-neutral-600 dark:text-neutral-200">
           <span className="font-medium ">Preț final:</span>{" "}
-          {totalPrice} € + TVA
+          {totalPrice.toLocaleString()} € + TVA
         </p>
       </div>
     </div>

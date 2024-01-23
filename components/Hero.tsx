@@ -14,10 +14,7 @@ const Hero = () => {
             Complexul de Apartamente Mr. Lucass se distinge prin designul său
             modern și calitatea construcției. De la priveliștile spectaculoase
             la facilitățile oferite, suntem dedicați să oferim o
-            experiență de locuire superioară. Cu predare la cheie și fără loc de
-            parcare inclus, vă invităm să vă rezervați un loc în această
-            comunitate exclusivistă, unde fiecare casă devine căminul unui stil
-            de viață deosebit.
+            experiență de locuire superioară.
           </p>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
