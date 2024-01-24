@@ -108,23 +108,6 @@ const Apartments = () => {
         <h1>Apartamente</h1>
       </div>
       <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
-        <h1>Studio</h1>
-      </div>
-      <div className="container-apartments flex flex-1 justify-center">
-        {studios.map((apt, index) => (
-          <Apartment
-            key={index}
-            title={apt.title}
-            image={apt.image}
-            floor={apt.floor}
-            surface={apt.surface}
-            balcony={apt.balcony}
-            price={apt.price}
-            totalPrice={apt.totalPrice}
-          />
-        ))}
-      </div>
-      <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
         <h1>2 Camere</h1>
       </div>
       <div className="container-apartments grid mx-auto xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
@@ -169,6 +152,23 @@ const Apartments = () => {
               totalPrice={apt.totalPrice}
             />
           </div>
+        ))}
+      </div>
+      <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
+        <h1>Studio</h1>
+      </div>
+      <div className="container-apartments flex flex-1 justify-center">
+        {studios.map((apt, index) => (
+          <Apartment
+            key={index}
+            title={apt.title}
+            image={apt.image}
+            floor={apt.floor}
+            surface={apt.surface}
+            balcony={apt.balcony}
+            price={apt.price}
+            totalPrice={apt.totalPrice}
+          />
         ))}
       </div>
     </div>
