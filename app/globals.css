@@ -21,6 +21,10 @@ body {
   background: #1d1d22
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 @layer components{
   .navbar{
     @apply h-[80px] w-full text-center items-center justify-center bg-[#2b3645] fixed top-0 z-[1000] border-b
