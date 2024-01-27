@@ -18,7 +18,7 @@ const Gallery = () => {
         Galerie
       </h1>
       <div className="h-[400px] mx-auto xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[650px] lg:w-[503px]">
-        <Carousel pauseOnHover slideInterval={2000} >
+        <Carousel pauseOnHover slideInterval={5000} >
           {galleryPhotos.map((photo, index) => (
             <Image
               src={photo.title}
