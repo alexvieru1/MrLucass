@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="col-span-7 place-self-center mt-20 lg:mt-[250px]" id="about">
+    <div className="col-span-7 place-self-center mt-20 lg:mt-[250px] 4xs:mx-[-50px] sm:mx-auto" id="about">
       <h1 className="text-center mb-4 text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-yellow-800 to-white">
         Despre noi
       </h1>

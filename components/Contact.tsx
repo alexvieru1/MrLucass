@@ -1,16 +1,17 @@
 import { AtSymbolIcon, MapIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <div
         className="mt-20 text-center mb-4 text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white"
         id="contact"
       >
         <h1>Contact</h1>
       </div>
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 4xs:mx-[-50px]">
         <h1 className="text-xl text-center text-[#ADB7BE]">
           Ești interesat să discutăm mai multe detalii sau să răspundem la întrebările tale?
         </h1>
@@ -32,11 +33,12 @@ const Contact = () => {
           </div>
           <div className="flex items-center justify-center text-base">
             <MapPinIcon className="h-5 w-5 mr-2" />
-            Str. Barbu Catargi, Nr. 18C, Palazu Mare, Constanța
+            <Link href="https://maps.app.goo.gl/JHDSwnH2rNyKayqSA"
+            target="_blank">Str. Barbu Catargi, Nr. 18C, Palazu Mare, Constanța</Link>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 4xs:mx-[-50px]">
         <div className="rounded-lg overflow-hidden mb-10">
           <iframe
             title="Google Map"

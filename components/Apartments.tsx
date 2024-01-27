@@ -102,7 +102,7 @@ const Apartments = () => {
   return (
     <div className="container flex flex-col">
       <div
-        className="mt-20 text-center mb-4 text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white"
+        className="mt-20 text-center mb-4 text-4xl lg:text-6xl 4xs:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white"
         id="apartments"
       >
         <h1>Apartamente</h1>
@@ -110,7 +110,7 @@ const Apartments = () => {
       <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
         <h1>2 Camere</h1>
       </div>
-      <div className="container-apartments grid mx-auto xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="container-apartments grid 4xs:mx-[-50px] sm:mx-auto xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
         {oneBedroom.map((apt, index) => (
           <Apartment
             key={index}
@@ -127,7 +127,7 @@ const Apartments = () => {
       <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
         <h1>3 Camere</h1>
       </div>
-      <div className="container-apartments grid mx-auto xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="container-apartments grid 4xs:mx-[-50px] sm:mx-auto xl:grid-cols-3 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1">
         {twoBedroom.slice(0, 6).map((apt, index) => (
           <Apartment
             key={index}
@@ -141,7 +141,7 @@ const Apartments = () => {
           />
         ))}
         {twoBedroom.slice(6).map((apt, index) => (
-          <div key={index} className="col-span-full flex justify-center">
+          <div key={index} className="col-span-full flex justify-center ">
             <Apartment
               title={apt.title}
               image={apt.image}
@@ -157,7 +157,7 @@ const Apartments = () => {
       <div className="text-center mt-10 mb-10 text-2xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl  from-yellow-800 to-white">
         <h1>Studio</h1>
       </div>
-      <div className="container-apartments flex flex-1 justify-center">
+      <div className="container-apartments flex flex-1 justify-center 4xs:mx-[-50px] sm:mx-auto">
         {studios.map((apt, index) => (
           <Apartment
             key={index}
