@@ -47,19 +47,14 @@ export const progressPhotos = [
     etapa: "Etapa ",
     title: "Hidroizolație la grinzi fundații",
     description:
-      "Și pe placa radierului, executată cu vopsea hidroizolantă aplicată la rece în 2 straturi. Termoizolație sub placa de pardoseală și pe verticala exterioară a grinzilor de fundații, din poli",
-    photos: [
-      "/images/image00014.png",
-    ],
+      "Și pe verticala exterioara a grinzilor de fundatii , din polistiren extrudat de 15 cm grosime.Umplutura de pamant galben , compactat mecanic in straturi uniforme in regim de perna , pe interiorul si pe exteriorul fundatiilor",
+    photos: ["/images/image00014.png"],
   },
   {
     etapa: "Etapa ",
     title: "Montare traseu de evacuare și preluare apelor",
     description: "",
-    photos: [
-      "/images/image00015.png",
-      "/images/image00016.png",
-    ],
+    photos: ["/images/image00015.png", "/images/image00016.png"],
   },
   {
     etapa: "Etapa ",
@@ -74,18 +69,14 @@ export const progressPhotos = [
   {
     etapa: "Etapa ",
     title: "Strat de rupere a capilarității",
-    description: "Din pietriș margaritar, între fundații, 15 cm grosime, compactat mecanic",
-    photos: [
-      "/images/image00020.png",
-      "/images/image00021.png",
-    ],
+    description:
+      "Din pietriș margaritar, între fundații, 15 cm grosime, compactat mecanic",
+    photos: ["/images/image00020.png", "/images/image00021.png"],
   },
   {
     etapa: "Etapa ",
     title: "Stadiu fizic 26.01.2024 Armare Placă Etaj 3",
     description: "",
-    photos: [
-      "/images/image00022.png",
-    ],
+    photos: ["/images/image00022.png"],
   },
 ];
