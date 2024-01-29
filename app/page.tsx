@@ -12,10 +12,10 @@ export default function Home() {
       <NavBar />
       <div className="container mt-[80px]">
         <Hero />
-        <About/>
-        <Gallery/>
-        <Apartments/>
-        <Contact/>
+        <About />
+        <Gallery />
+        <Apartments />
+        <Contact />
       </div>
     </main>
   );

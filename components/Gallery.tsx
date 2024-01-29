@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { Carousel } from "flowbite-react";
+import { Button } from "flowbite-react";
+import Link from "next/link";
 
 const Gallery = () => {
   const galleryPhotos = [
@@ -18,7 +20,7 @@ const Gallery = () => {
         Galerie
       </h1>
       <div className="h-[400px] mx-auto xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[650px] lg:w-[503px]">
-        <Carousel pauseOnHover slideInterval={5000} >
+        <Carousel pauseOnHover slideInterval={5000}>
           {galleryPhotos.map((photo, index) => (
             <Image
               src={photo.title}
@@ -30,6 +32,11 @@ const Gallery = () => {
             />
           ))}
         </Carousel>
+      </div>
+      <div className="flex justify-center mt-8">
+        <Button color="warning">
+          <Link href="/etape">Etapele construcției</Link>
+        </Button>
       </div>
     </div>
   );
