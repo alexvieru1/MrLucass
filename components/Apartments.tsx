@@ -30,7 +30,7 @@ const Apartments = () => {
       surface: 55,
       balcony: 8.49,
       price: 1650,
-      totalPrice: 90750,
+      totalPrice: 82500,
     },
   ];
   const twoBedroom = [
@@ -50,7 +50,7 @@ const Apartments = () => {
       surface: 77.55,
       balcony: 12.02,
       price: 1650,
-      totalPrice: 127957,
+      totalPrice: 116325,
     },
     {
       title: "3 Camere - Vedere Spate",
@@ -59,7 +59,7 @@ const Apartments = () => {
       surface: 73.1,
       balcony: 5.52,
       price: 1650,
-      totalPrice: 120615,
+      totalPrice: 109650,
     },
     {
       title: "3 Camere - Vedere Frontală/Stradală",
