@@ -47,7 +47,7 @@ export const progressPhotos = [
     etapa: "Etapa ",
     title: "Hidroizolație la grinzi fundații",
     description:
-      "Și pe verticala exterioara a grinzilor de fundatii , din polistiren extrudat de 15 cm grosime.Umplutura de pamant galben , compactat mecanic in straturi uniforme in regim de perna , pe interiorul si pe exteriorul fundatiilor",
+      "Și pe verticala exterioară a grinziilor de fundații, din polistiren extrudat de 15 cm grosime. Umplutura de pământ galben, compactat mecanic în straturi uniforme în regim de pernă, pe interiorul și pe exteriorul fundațiilor.",
     photos: ["/images/image00014.png"],
   },
   {
