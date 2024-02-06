@@ -72,7 +72,7 @@ const Apartments = () => {
     },
     {
       title: "3 Camere - Vedere Frontală/Stradală",
-      image: "/images/ap-7.jpg",
+      image: "/images/ap-9.jpg",
       floor: 3,
       surface: 67.04,
       balcony: 24.82,
@@ -90,7 +90,7 @@ const Apartments = () => {
     },
     {
       title: "3 Camere - Vedere Frontală/Stradală",
-      image: "/images/ap-9.jpg",
+      image: "/images/ap-7.jpg",
       floor: 4,
       surface: 53.96,
       balcony: 50,
