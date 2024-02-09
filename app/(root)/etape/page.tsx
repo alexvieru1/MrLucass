@@ -5,12 +5,26 @@ import { progressPhotos } from "@/constants/progressPhotos";
 import { Carousel } from "flowbite-react";
 import Image from "next/image";
 import { Timeline } from "flowbite-react";
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import Nav from "@/components/Nav";
 
 const Etape = () => {
   const p = progressPhotos;
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
 
+  useEffect(() => {
+    const updateScreenSize = () => {
+      setIsLargeScreen(window.innerWidth > 1536); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener("resize", updateScreenSize);
+
+    updateScreenSize();
+
+    return () => {
+      window.removeEventListener("resize", updateScreenSize);
+    };
+  }, []);
 
   return (
     <div>
@@ -31,7 +45,7 @@ const Etape = () => {
           </div>
         </div>
       </div>
-      <div className="ml-4">
+      <div className="mx-10 ">
         <Timeline>
           {p.map((ph, index) => (
             <Timeline.Item key={index}>
@@ -44,8 +58,38 @@ const Etape = () => {
                   {ph.title}
                 </Timeline.Title>
                 <Timeline.Body>{ph.description}</Timeline.Body>
-                <div className="h-[300px] 4xs:mr-4 xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[450px] lg:w-[503px]">
-                  <Carousel pauseOnHover slideInterval={5000}>
+                {ph.photos.length > 1 ? (
+                  isLargeScreen ? (
+                    <div className="h-[300px] 4xs:mr-4 xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[450px] lg:w-[503px] flex flex-row gap-3 mb-5">
+                      {ph.photos.map((photo, index) => (
+                        <Image
+                          src={photo}
+                          key={index}
+                          width={665}
+                          height={859}
+                          alt="img"
+                          className="4xs:rounded-xl"
+                        />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="h-[300px] 4xs:mr-4 xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[450px] lg:w-[503px]">
+                      <Carousel pauseOnHover slideInterval={5000}>
+                        {ph.photos.map((photo, index) => (
+                          <Image
+                            src={photo}
+                            key={index}
+                            width={665}
+                            height={859}
+                            alt="img"
+                            className="4xs:rounded-xl"
+                          />
+                        ))}
+                      </Carousel>
+                    </div>
+                  )
+                ) : (
+                  <div className="h-[300px] 4xs:mr-4 xs:h-[550px] xs:w-[426px] sm:h-[600px] sm:w-[464px] lg:h-[450px] lg:w-[483px]">
                     {ph.photos.map((photo, index) => (
                       <Image
                         src={photo}
@@ -56,8 +100,8 @@ const Etape = () => {
                         className="4xs:rounded-xl"
                       />
                     ))}
-                  </Carousel>
-                </div>
+                  </div>
+                )}
               </Timeline.Content>
             </Timeline.Item>
           ))}
