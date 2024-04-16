@@ -14,7 +14,7 @@ const Etape = () => {
 
   useEffect(() => {
     const updateScreenSize = () => {
-      setIsLargeScreen(window.innerWidth > 1536); // Adjust the breakpoint as needed
+      setIsLargeScreen(window.innerWidth > 1536);
     };
 
     window.addEventListener("resize", updateScreenSize);

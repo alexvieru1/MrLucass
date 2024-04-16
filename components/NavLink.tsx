@@ -1,5 +1,4 @@
 "use client"
-// NavLink.tsx
 import Link from "next/link";
 interface NavLinkProps {
   href: string;
@@ -25,7 +24,7 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title, setNavbarOpen }) => {
     <Link
       href={href}
       onClick={handleClick}
-      className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-[#cda370]"
+      className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-[#cda370] uppercase"
     >
       {title}
     </Link>

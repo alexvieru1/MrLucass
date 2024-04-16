@@ -1,4 +1,9 @@
-import { AtSymbolIcon, MapIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import {
+  AtSymbolIcon,
+  MapIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/solid";
 import Link from "next/link";
 import React from "react";
 
@@ -13,11 +18,12 @@ const Contact = () => {
       </div>
       <div className="grid grid-cols-1 4xs:mx-[-50px]">
         <h1 className="text-xl text-center text-[#ADB7BE]">
-          Ești interesat să discutăm mai multe detalii sau să răspundem la întrebările tale?
+          Ești interesat să discutăm mai multe detalii sau să răspundem la
+          întrebările tale?
         </h1>
-        <h1 className="text-[#ADB7BE] text-lg text-center">
+        {/* <h1 className="text-[#ADB7BE] text-lg text-center">
           Sună-ne sau trimite-ne un email și vom reveni la tine cât mai curând posibil.
-        </h1>
+        </h1> */}
         <div className="p-6 text-center select-text">
           <div className="flex items-center justify-center mb-1 text-base">
             <PhoneIcon className="h-5 w-5 mr-2" />
@@ -27,14 +33,19 @@ const Contact = () => {
             <PhoneIcon className="h-5 w-5 mr-2" />
             <a href="tel:+40754439439">(0754) 439 439</a>
           </div>
-          <div className="flex items-center justify-center mb-1 text-base">
+          {/* <div className="flex items-center justify-center mb-1 text-base">
             <AtSymbolIcon className="h-5 w-5 mr-2" />
             <a href="mailto:daniella1961@yahoo.com">daniella1961@yahoo.com</a>
-          </div>
+          </div> */}
           <div className="flex items-center justify-center text-base">
             <MapPinIcon className="h-5 w-5 mr-2" />
-            <Link href="https://maps.app.goo.gl/JHDSwnH2rNyKayqSA"
-            target="_blank">Str. Barbu Catargi, Nr. 18C, Palazu Mare, Constanța</Link>
+            <Link
+              className="4xs:text-sm"
+              href="https://maps.app.goo.gl/JHDSwnH2rNyKayqSA"
+              target="_blank"
+            >
+              Str. Barbu Catargi, Nr. 18C, Palazu Mare, Constanța
+            </Link>
           </div>
         </div>
       </div>
