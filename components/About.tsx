@@ -8,7 +8,7 @@ const About = () => {
         Despre noi
       </h1>
       <p className="text-[#ADB7BE] text-lg lg:text-xl text-center">
-        Cu o locație invidiată și finalizare în iunie 2024, oferim un cămin și un stil de viață deosebit.
+        Cu o locație invidiată și finalizare în octombrie 2024, oferim un cămin și un stil de viață deosebit.
       </p>
       <p className="text-[#ADB7BE] text-lg lg:text-xl text-center">
         Situat în Constanța, zona Palazu, Complexul de Apartamente Mr. Lucass se remarcă prin design modern și construcție de calitate.
@@ -32,7 +32,7 @@ const About = () => {
         Alte beneficii:
       </p>
       <ul className="text-[#ADB7BE] text-lg lg:text-xl text-center">
-        <li>• Spațiu verde amenajat 128.4 m²</li>
+        <li>• Spațiu verde amenajat</li>
         <li>• Loc de joacă pentru copii</li>
         <li>• Acces rampă persoane cu dizabilități</li>
         <li>• Platformă biciclete în zona accesului la bloc</li>
