@@ -25,10 +25,10 @@ const Contact = () => {
           Sună-ne sau trimite-ne un email și vom reveni la tine cât mai curând posibil.
         </h1> */}
         <div className="p-6 text-center select-text">
-          <div className="flex items-center justify-center mb-1 text-base">
+          {/* <div className="flex items-center justify-center mb-1 text-base">
             <PhoneIcon className="h-5 w-5 mr-2" />
             <a href="tel:+40741274273">(0741) 274 273</a>
-          </div>
+          </div> */}
           <div className="flex items-center justify-center mb-1 text-base">
             <PhoneIcon className="h-5 w-5 mr-2" />
             <a href="tel:+40754439439">(0754) 439 439</a>

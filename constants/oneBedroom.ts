@@ -6,7 +6,7 @@ export const oneBedroom = [
       surface: 55,
       balcony: 8.49,
       price: 1650,
-      totalPrice: 82500,
+      totalPrice: 99000,
     },
     {
       title: "2 Camere - Vedere Laterală",
@@ -15,6 +15,6 @@ export const oneBedroom = [
       surface: 55,
       balcony: 8.49,
       price: 1650,
-      totalPrice: 82500,
+      totalPrice: 99000,
     },
   ];

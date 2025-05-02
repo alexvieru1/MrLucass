@@ -4,7 +4,6 @@ import Contact from "@/components/Contact";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
-import Image from "next/image";
 
 export default function Home() {
   return (
