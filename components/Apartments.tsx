@@ -5,9 +5,9 @@ import { oneBedroom } from "@/constants/oneBedroom";
 import { twoBedroom } from "@/constants/twoBedroom";
 
 const Apartments = () => {
-  const s = studios
-  const one = oneBedroom
-  const two = twoBedroom
+  const s = studios;
+  const one = oneBedroom;
+  const two = twoBedroom;
 
   return (
     <div className="container flex flex-col">
@@ -31,6 +31,7 @@ const Apartments = () => {
             balcony={apt.balcony}
             price={apt.price}
             totalPrice={apt.totalPrice}
+            sold={apt.sold}
           />
         ))}
       </div>
@@ -48,6 +49,7 @@ const Apartments = () => {
             balcony={apt.balcony}
             price={apt.price}
             totalPrice={apt.totalPrice}
+            sold={apt.sold}
           />
         ))}
         {two.slice(6).map((apt, index) => (
@@ -60,6 +62,7 @@ const Apartments = () => {
               balcony={apt.balcony}
               price={apt.price}
               totalPrice={apt.totalPrice}
+              sold={apt.sold}
             />
           </div>
         ))}
@@ -78,6 +81,7 @@ const Apartments = () => {
             balcony={apt.balcony}
             price={apt.price}
             totalPrice={apt.totalPrice}
+            sold={apt.sold}
           />
         ))}
       </div>

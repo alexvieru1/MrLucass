@@ -17,6 +17,7 @@ export const twoBedroom = [
     balcony: 12.02,
     price: 1650,
     totalPrice: 155000,
+    sold:false
   },
   {
     title: "3 Camere - Vedere Spate",
@@ -26,6 +27,7 @@ export const twoBedroom = [
     balcony: 5.52,
     price: 1650,
     totalPrice: 135000,
+    sold:false
   },
   {
     title: "3 Camere - Vedere Frontală/Stradală",
@@ -35,6 +37,7 @@ export const twoBedroom = [
     balcony: 12.02,
     price: 1650,
     totalPrice: 155000,
+    sold:false
   },
   {
     title: "3 Camere - Vedere Frontală/Stradală",
@@ -44,6 +47,7 @@ export const twoBedroom = [
     balcony: 24.82,
     price: 1650,
     totalPrice: 118560,
+    sold:true
   },
   {
     title: "3 Camere - Vedere Spate",
@@ -52,7 +56,8 @@ export const twoBedroom = [
     surface: 60.85,
     balcony: 37.22,
     price: 1650,
-    totalPrice: 106848,
+    totalPrice: 149000,
+    sold:false
   },
   {
     title: "3 Camere - Vedere Frontală/Stradală",
@@ -62,5 +67,6 @@ export const twoBedroom = [
     balcony: 50,
     price: 1650,
     totalPrice: 160000,
+    sold:false
   },
 ];

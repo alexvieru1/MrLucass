@@ -23,7 +23,7 @@ const About = () => {
             Predare la cheie, fără loc de parcare inclus. Rezervați-vă un loc în această comunitate exclusivistă.
           </p>
           <p className="text-[#ADB7BE] text-lg lg:text-xl text-start">
-            Locuri de parcare disponibile la 8,000 €, cu 12 locuri supraterane în complex.
+            Locuri de parcare disponibile la 10,000 €, cu 12 locuri supraterane în complex.
           </p>
           <p className="text-[#ADB7BE] text-lg lg:text-xl text-start">
             Clădirea are compartimentare cu BCA (CELCO) și tâmplărie Barrier 75 cu feronerie RotoNX și izolare acustică de până la 44dB.
