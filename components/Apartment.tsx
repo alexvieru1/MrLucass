@@ -26,7 +26,7 @@ const Apartment: React.FC<ApartmentProps> = ({
     <div className="relative mb-10 xl:mr-10 max-w-[400px] block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 hover:scale-110 transition-transform duration-300 ease-in-out">
       {/* Sold badge */}
       {sold && (
-        <div className="absolute top-2 right-2 z-10 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-md shadow-md">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[-20deg] z-10 px-10 py-3 border-4 border-red-600 text-red-600 text-xl font-extrabold uppercase tracking-wider rounded-md bg-white/80 backdrop-blur-sm shadow-2xl">
           Vândut
         </div>
       )}
