@@ -51,10 +51,12 @@ const Apartment: React.FC<ApartmentProps> = ({
         <p className="mb-1 text-base text-neutral-600 dark:text-neutral-200">
           <span className="font-medium">Etaj:</span> {floor}
         </p>
-        <p className="mb-0 text-base text-neutral-600 dark:text-neutral-200">
-          <span className="font-medium">Preț final:</span>{" "}
-          {totalPrice.toLocaleString()} € + TVA
-        </p>
+        {!sold && (
+          <p className="mb-0 text-base text-neutral-600 dark:text-neutral-200">
+            <span className="font-medium">Preț final:</span>{" "}
+            {totalPrice.toLocaleString()} € + TVA
+          </p>
+        )}
       </div>
     </div>
   );

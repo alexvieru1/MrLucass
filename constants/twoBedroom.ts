@@ -67,6 +67,6 @@ export const twoBedroom = [
     balcony: 50,
     price: 1650,
     totalPrice: 160000,
-    sold:false
+    sold:true
   },
 ];
