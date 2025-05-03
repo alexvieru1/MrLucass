@@ -40,7 +40,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-85 ">
+    <nav className="fixed top-0 left-0 right-0 z-40 bg-black bg-opacity-85 ">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"#hero"}
