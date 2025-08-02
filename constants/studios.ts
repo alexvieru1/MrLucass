@@ -6,7 +6,7 @@ export const studios = [
       surface: 36.66,
       balcony: 60,
       price: 1650,
-      totalPrice: 126000,
+      totalPrice: 134000,
       sold:false
     },
   ];

@@ -16,7 +16,7 @@ export const twoBedroom = [
     surface: 77.55,
     balcony: 12.02,
     price: 1650,
-    totalPrice: 155000,
+    totalPrice: 171000,
     sold:false
   },
   {
@@ -26,7 +26,7 @@ export const twoBedroom = [
     surface: 73.1,
     balcony: 5.52,
     price: 1650,
-    totalPrice: 135000,
+    totalPrice: 147000,
     sold:false
   },
   {
@@ -36,7 +36,7 @@ export const twoBedroom = [
     surface: 77.55,
     balcony: 12.02,
     price: 1650,
-    totalPrice: 155000,
+    totalPrice: 171000,
     sold:false
   },
   {
@@ -56,7 +56,7 @@ export const twoBedroom = [
     surface: 60.85,
     balcony: 37.22,
     price: 1650,
-    totalPrice: 149000,
+    totalPrice: 160000,
     sold:false
   },
   {
@@ -66,7 +66,7 @@ export const twoBedroom = [
     surface: 53.96,
     balcony: 50,
     price: 1650,
-    totalPrice: 160000,
+    totalPrice: 169000,
     sold:true
   },
 ];
