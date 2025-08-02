@@ -66,12 +66,7 @@ export const twoBedroom = [
     surface: 53.96,
     balcony: 50,
     price: 1650,
-<<<<<<< HEAD
     totalPrice: 169000,
-    sold:true
-=======
-    totalPrice: 160000,
     sold:false
->>>>>>> 40cb7e6df7b31e6ee31337054b90fb85430630e8
   },
 ];
